@@ -1,0 +1,76 @@
+#Header{
+	border:solid 8px black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	text-align: center;
+	background-color: #8E41D5;
+}
+#Header h1{
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #FFBC00;
+	font-weight: bold;
+}
+
+#LeftNav{
+	border:solid 8px black;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	float: left;
+	text-align: center;
+	padding-bottom: 8px;
+	background-color: #8E41D5;
+}
+#LeftNav{
+	 color: #FFBC00;
+	 font-size: 40px;
+	 font-family: "Passion One";
+	 margin-bottom: 0px;
+}
+
+#Content{
+	border:solid 8px black;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	text-align: center;
+	padding: 15px;
+	background-color: #8E41D5;
+}
+
+#Footer{
+	border:solid 8px black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid 8px black;
+	text-align: center;
+	background-color: #8E41D5;
+}
+#Footer p{
+	font-family: "Arial";
+	color: white;
+}
+#Footer a{
+	color: white; 
+	font-weight: bold; 
+	font-size: 24px;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+body{
+	background-image: url('circuit.png');
+}
