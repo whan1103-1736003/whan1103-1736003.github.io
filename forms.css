@@ -1,0 +1,25 @@
+body{
+	background-image: url('a.jpg');
+}
+
+#Header{
+	width: 1200px; 
+	margin: 10px; 
+	border: solid 8px black;
+	text-align: center;
+	background-color: #feff8e; 
+	border:solid 8px black;
+	text-align: center;
+}
+
+#Header {
+	font-size: 50px;
+	font-family: "Passion One";
+	color: #2e5c8b;
+}
+
+#legend {
+	font-size: 10px;
+	font-family: "Passion One";
+	color: #000000;
+}
