@@ -1,0 +1,104 @@
+
+#Header{
+	width: 1200px; 
+	margin: 10px; 
+	border: solid 8px black;
+	text-align: center;
+	background-color: #ffffff; 
+	border:solid 8px black;
+	text-align: center;
+}
+
+h3{
+	color: #3a143e;
+	font-size: 40px;
+	font-family: "Arial";
+	margin-bottom: 0px;
+
+}
+
+h5{
+	color: #3a143e;
+	font-size: 40px;
+	font-family: "Arial";
+	margin-bottom: 0px;
+
+}
+
+p{
+	color: black;
+	font-family: "Arial"; 
+	font-weight: bold; 
+}
+
+#Header h1{
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #2e5c8b;
+}
+
+#RightNav {
+	margin: 10px; 
+	float: right;
+	width: 500px;
+	border: solid 8px #0c7b8e;
+	padding: 5px;
+	background-color: #62aab6; 
+}
+
+#LeftNav{
+	margin: 10px; 
+	float: left;
+	width: 500px;
+	border: solid 8px #80a8ac;
+	padding: 5px;
+	background-color: #9cd1d7; 
+}
+
+#LeftNav ul{
+	color: #80a8ac;
+}
+
+a{
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px; 
+}
+
+#Content{
+float: left;
+	width: 650px;
+	margin: 10px; 
+	border: solid 8px #308bd1;
+	background-color: #8fb4d1;
+	padding: 5px;
+	
+}
+
+#Footer{
+	border: solid 8px #34805d;
+	background-color: #79c2a0;
+	padding: 5px;
+	margin: 10px; 
+	width: 1000px;
+	text-align: center;
+
+}
+
+.titles{
+	
+}
+
+#bow{
+	color:#FFBC00;
+	font-size: 20px;
+}
+
+body{
+	background-image: url('3.png');
+}

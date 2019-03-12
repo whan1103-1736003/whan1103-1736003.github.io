@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+	<head> 
+		<title> Our Thing to do page </title>
+		<link rel="stylesheet" type="text/css" href="our.css" />
+		<link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id = "Header">
+		   <table>
+		      <tr>
+		         <td><img src="1.png"></img></td>
+		         <td><h1>Kansei University Cross Country</h1></td>
+		      </tr>
+		   </table>
+		</div>
+		
+		<div id = "LeftNav">
+		   
+			<h3>Recent Events</h3>
+			<p>[begin.loop]</p>
+			<ul>
+				<li><a hrefs="thingPage.php?thingId=[event.id]">[event.name]</a></li>
+			</ul>
+			<p>[end.loop]</p>	
+			<p>Query: SELECT id, name FROM event ORDER BY name</p>
+		<table>
+		      <tr>
+		         <td><img src="2.png"></img></td>
+		      </tr>
+		   </table>		
+		</div>
+		
+		<div id = "Content">
+		   <h3>[event.Name]</h3>
+		   <p>What: [event.yype]</p>
+  		   <p>When:[event.date]</p>
+		   <p>How Much:[event.cost]</p>
+		   <p>Where: [location.street] [location.city] [location.state] [location.ZIP]
+		   <p>Query: SELECT * FROM event OR location WHERE event.id = "event1"</p>
+		</div>
+		<br clear="all"></br>
+		
+		<div id = "RightNav">
+		<h5> Hakone Ekiden (箱根駅伝) </h5>
+		<ul>
+			 <p>Officially called Tokyo-Hakone Round-Trip College Ekiden Race is one of the most prominent university ekiden (relay marathon) races of the year held between Tokyo and Hakone in Japan on January 2 and 3. The race is telecast on Nippon Television.</p>
+			<li><a href="http://www.hakone-ekiden.jp/">Related Website</a></li>
+		</ul>
+		</div>
+
+		<div id = "Footer">
+		<style>
+		p.a {
+  			font: 15px arial, sans-serif;
+		}
+
+		p.a {
+  			font: italic bold 12px/30px Georgia, serif;
+		}
+		</style>
+			<h3>About the Members</h3>
+			<p class="a">箱根の山は 天下の険</p>
+		      <tr>
+		         <td><img src="4.png"></img></td>
+		      </tr>
+		
+		<fieldset>
+		<legend>Connect With Us:</legend>
+		<div class="field">
+			<label>Your Comment:</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<fieldset>
+		<legend>Your Information</legend>
+		<div class="field">
+			<label>Full Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Email Address:</label> 
+			<input type="text" name="street">
+		</div>
+		<input type="submit" value="Submit form">
+	
+		</div>
+
+	</body>
+
+</html>
